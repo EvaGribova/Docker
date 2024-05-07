@@ -3,14 +3,14 @@ version: '3.9'
 services:
 
   db:
-    image: postgres:latest
-    ports:
-      - '5432:5432'
-    volumes:
-      - ./data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_PASSWORD: 9mREsvXDs9Gk89Ef
-      POSTGRES_USER: app
-      POSTGRES_DB: app
+     image: postgres:latest
+     ports:
+       - '5432:5432'
+     volumes:
+       - ./data:/var/lib/postgresql/data
+     environment:
+       POSTGRES_PASSWORD: 9mREsvXDs9Gk89Ef
+       POSTGRES_USER: app
+       POSTGRES_DB: app
 
 
